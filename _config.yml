@@ -24,7 +24,7 @@ colors:
   footer: "#043B58"                     # TDWG blue, used for footer
 font_serif: false                       # Font type for page content: serif or slightly smaller sans-serif (default)
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
-logo: /assets/theme/images/petri-dish_1f9eb.png # Logo in navbar, will be displayed with 30px height
+logo: /assets/theme/images/tdwg-logo-long.svg # Logo in navbar, will be displayed with 30px height
 
 # BUILD SETTINGS
 markdown: kramdown
