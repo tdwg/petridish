@@ -19,10 +19,10 @@ tweets_on_home: false                   # Show Twitter feed of social.twitter on
 archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
 github_edit: true                       # Show an "edit this page" link in the footer
 colors:
-  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
-  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
-font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
+  links: "#617E3E"                      # TDWG green, used for links and .primary. The colour deviates slightly from the logo green (#709147) so that buttons get white text
+  banner: "#043B58"                     # TDWG blue, used as for banners and .secondary
+  footer: "#043B58"                     # TDWG blue, used for footer
+font_serif: false                       # Font type for page content: serif or slightly smaller sans-serif (default)
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
 logo: /assets/theme/images/petri-dish_1f9eb.png # Logo in navbar, will be displayed with 30px height
 
