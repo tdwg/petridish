@@ -3,13 +3,19 @@ layout: default
 description: Template for team page.
 ---
 
+{% if page.team and site.data[page.team] %}
+  {% assign team = site.data[page.team] %}
+{% elsif site.data.team %}
+  {% assign team = site.data.team %}
+{% endif %}
+
 {{ content }}
 
-{% for member in site.data.team %}
+{% for member in team %}
   <div class="d-flex team-member">
     <div class="flex-shrink-0 me-3">
       {% if member.image %}
-        <img src="{{ member.image | relative_url }}">
+        <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
       {% endif %}
     </div>
     <div>
