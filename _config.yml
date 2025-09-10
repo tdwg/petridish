@@ -3,20 +3,21 @@ title: Petridish                        # Title in top navigation bar (navbar) a
 author: Peter Desmet                    # Used for copyright statement in footer
 baseurl: "/petridish"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
-                                        # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/markdown/#links
+                                        # A baseurl affects internal links, see http://peterdesmet.com/petridish/markdown/#links
 
 # SOCIAL PROFILES
 social:
   email: secretary@tdwg.org
+  bluesky: tdwg.org
+  # mastodon: https://mastodon.social/@mastodon_username
   twitter: tdwg
+  linkedin: https://www.linkedin.com/company/tdwg/
+  facebook: https://www.facebook.com/groups/326780777736/
   github: tdwg                          # Can also be a github_username/repository
-  mastodon: https://mastodon.social/@mastodon_username
-  facebook:                             # A URL
-  disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
+  # disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
 
 # THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
-tweets_on_home: false                   # Show Twitter feed of social.twitter on homepage
+posts_on_home: 2                        # Show x number of latest posts on homepage, can be 0
 archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
 github_edit: true                       # Show an "edit this page" link in the footer, can also be name of branch (default: main)
 colors:
@@ -40,7 +41,8 @@ exclude:
   - LICENSE
   - package-lock.json
   - package.json
-  - petridish.gemspec
+  - jekyll-theme-petridish.gemspec
+  - CITATION.cff
 
 # FRONTMATTER DEFAULTS
 defaults:
