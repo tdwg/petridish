@@ -115,7 +115,7 @@ layout: home
 In `_config.yml` you can now define:
 
 ```yml
-posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
+posts_on_home: 2                        # Show x number of latest posts on homepage, can be 0
 ```
 
 For easier maintenance, move/rename your `index.md` to `pages/home.md` and set its `permalink` to `/`.
@@ -241,6 +241,7 @@ Add a logo by uploading it to `assets/` and referencing it in `_config.yml`:
 
 ```yml
 logo: /assets/images/logo.png           # Logo in navbar, will be displayed with 30px height
+logo_and_title: true                    # If logo is enabled, show title as well (default)
 ```
 
 Add a favicon by adding a `favicon.ico` file to the root of your repository.
