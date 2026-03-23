@@ -20,6 +20,17 @@
             </p>
           {% endif %}
 
+          {% if page.github or page.website %}
+            <p>
+              {% if page.website %}
+                <a class="btn btn-primary" href="{{ page.website }}">Website</a>
+              {% endif %}
+              {% if page.github %}
+                <a class="btn btn-primary" href="{{ page.github }}">GitHub <i class="fab fa-github"></i></a>
+              {% endif %}
+            </p>
+          {% endif %}
+
           <div class="tags">
             {% if page.collection == 'posts' and page.tags and site.archive_permalink %}
               {% for tag in page.tags %}
