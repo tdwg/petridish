@@ -27,7 +27,7 @@ colors:
 font_serif: false                       # Font type for page content: serif or slightly smaller sans-serif (default)
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
 logo: /assets/theme/images/tdwg-logo-long.svg # Logo in navbar, will be displayed with 30px height
-logo_and_title: false                   # If logo is enabled, show title as well (default)
+logo_and_title: true                    # If logo is enabled, show title as well (default)
 
 # BUILD SETTINGS
 markdown: kramdown
